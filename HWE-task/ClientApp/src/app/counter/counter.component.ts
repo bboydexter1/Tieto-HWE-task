@@ -5,9 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './counter.component.html'
 })
 export class CounterComponent {
-  public currentCount = 0;
+  public currentNumber = 0;
+  public nextNumber = 1;
 
-  public incrementCounter() {
-    this.currentCount++;
+  public fibonacciSequence() {
+    var sumHolder = this.nextNumber + this.currentNumber;
+    this.currentNumber = this.nextNumber;
+    this.nextNumber = sumHolder;
   }
 }
