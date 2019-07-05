@@ -7,23 +7,23 @@
                 <span class='icon-bar'></span>
                 <span class='icon-bar'></span>
             </button>
-            <a class='navbar-brand' [routerLink]='["/"]'>HWE_task</a>
+            <a class='navbar-brand text-white'  [routerLink]='["/"]'>HWE_task</a>
         </div>
         <div class='clearfix'></div>
         <div class='navbar-collapse collapse' [ngClass]='{ "in": isExpanded }'>
             <ul class='nav navbar-nav'>
                 <li [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
-                    <a [routerLink]='["/"]' (click)='collapse()'>
+                    <a [routerLink]='["/"]' class="text-white" (click)='collapse()'>
                         <span class='glyphicon glyphicon-home'></span> Home
                     </a>
                 </li>
                 <li [routerLinkActive]='["link-active"]'>
-                    <a [routerLink]='["/counter"]' (click)='collapse()'>
+                    <a [routerLink]='["/counter"]' class="text-white" (click)='collapse()'>
                         <span class='glyphicon glyphicon-education'></span> Counter
                     </a>
                 </li>
                 <li [routerLinkActive]='["link-active"]'>
-                    <a [routerLink]='["/fetch-data"]' (click)='collapse()'>
+                    <a [routerLink]='["/fetch-data"]' class="text-white" (click)='collapse()'>
                         <span class='glyphicon glyphicon-th-list'></span> Fetch data
                     </a>
                 </li>

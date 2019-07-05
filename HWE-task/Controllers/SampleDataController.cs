@@ -63,7 +63,7 @@ namespace HWE_task.Controllers
             {
                 get
                 {
-                    return 32 + (double)(TemperatureC / 0.5556);
+                    return Math.Round( 32 + (double)(TemperatureC / 0.5556) , 2 );
                 }
             }
         }

@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+p {
+  font-weight: bold;
+}
+
+button {
+  color: white !important;
+  background-color: black;
+  border: none;
+}
+
+button {
+  padding: 10 px;
+  color: white !important;
+  background-color: black;
+  border: none;
+}
+
+th {
+  background-color: #55c4e0;
+}
+
+table {
+  border: 1px solid lightgray;
+}
+
+.navbar.navbar-inverse {
+  color: white !important;
+  background-color: #55c4e0;
+}
+
+.navbar-collapse {
+  border-top: none !important;
+}
+
+.text-white {
+  color: white !important;
+}
+

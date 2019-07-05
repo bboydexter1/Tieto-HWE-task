@@ -12,7 +12,7 @@ namespace HWE_task.Test
 
             WeatherForecast testWeather = new WeatherForecast();
             testWeather.TemperatureC = 19;
-            int expceted = 66;
+            double expceted = 66.20;
 
             Assert.AreEqual(testWeather.TemperatureF, expceted);
         }
