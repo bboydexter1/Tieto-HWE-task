@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HWE-task", "HWE-task.csproj", "{AC3D2717-1C98-44BB-BEF7-C964AEDA0361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWE-task.Test", "..\HWE-task.Test\HWE-task.Test.csproj", "{8AB92FE0-4091-49CB-9AEC-591BB4D0AEB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HWE-task.Test", "..\HWE-task.Test\HWE-task.Test.csproj", "{8AB92FE0-4091-49CB-9AEC-591BB4D0AEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLogic", "..\ApiLogic\ApiLogic.csproj", "{644032FD-3BAB-451B-AF0B-A2B210C817A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8AB92FE0-4091-49CB-9AEC-591BB4D0AEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB92FE0-4091-49CB-9AEC-591BB4D0AEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB92FE0-4091-49CB-9AEC-591BB4D0AEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644032FD-3BAB-451B-AF0B-A2B210C817A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644032FD-3BAB-451B-AF0B-A2B210C817A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644032FD-3BAB-451B-AF0B-A2B210C817A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644032FD-3BAB-451B-AF0B-A2B210C817A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

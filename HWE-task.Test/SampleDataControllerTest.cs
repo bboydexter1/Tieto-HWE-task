@@ -1,5 +1,6 @@
+using ApiLogic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using static HWE_task.Controllers.SampleDataController;
+
 
 namespace HWE_task.Test
 {
