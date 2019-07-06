@@ -1,4 +1,4 @@
-CREATE TABLE `wather`
+CREATE TABLE `weather`
 (
   `id` int PRIMARY KEY,
   `measurement_date` date NOT NULL,
@@ -36,9 +36,9 @@ CREATE TABLE `clouds`
   `name` varchar(255)
 );
 
-ALTER TABLE `wather` ADD FOREIGN KEY (`city_id`) REFERENCES `cities` (`id`);
+ALTER TABLE `weather` ADD FOREIGN KEY (`city_id`) REFERENCES `cities` (`id`);
 
-ALTER TABLE `wather` ADD FOREIGN KEY (`clouds_id`) REFERENCES `clouds` (`id`);
+ALTER TABLE `weather` ADD FOREIGN KEY (`clouds_id`) REFERENCES `clouds` (`id`);
 
 ALTER TABLE `cities` ADD FOREIGN KEY (`province_id`) REFERENCES `provinces` (`id`);
 
