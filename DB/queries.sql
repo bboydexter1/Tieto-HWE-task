@@ -1,6 +1,6 @@
 --display today's weather
 SELECT weather.celsius , weather.Pressure , weather.Humidity , weather.wind_speed , clouds.name FROM weather
-INNER JOIN clouds ON weather.clouds_id = clouds.id WHERE (SELECT id FROM cities WHERE name = 'Szczecin') = weather.city_id
+INNER JOIN clouds ON weather.clouds_id = clouds.id WHERE  weather.measurement_date = NOW()
 --add new entry 
 INSERT INTO weather (id, measurement_date, city_id , celsius, pressure , humidity , wind_speed, clouds_id)
 VALUES (5, NOW(), 3 , 19 , 1018 , 52 , 8.5 ,2);
